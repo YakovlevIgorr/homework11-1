@@ -3,7 +3,7 @@
 #include <iostream>
 
     std::string Leaver::leave(std::string name) {
-        std::cout << "До свидания, " + name + " !" << std::endl;
+        return "До свидания, " + name + " !";
     }
 
 //
